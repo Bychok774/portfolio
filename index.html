@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Данил — разработчик Telegram-ботов и AI-решений</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1e1e2f 0%, #2a2a4a 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #0088cc, #6b4cff);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 48px;
+            font-weight: bold;
+            box-shadow: 0 10px 30px rgba(0,136,204,0.3);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        .section {
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .section h2 {
+            margin-bottom: 20px;
+            color: #0088cc;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .service-card {
+            background: rgba(0,0,0,0.2);
+            padding: 20px;
+            border-radius: 15px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .service-card h3 {
+            color: #6b4cff;
+            margin-bottom: 10px;
+        }
+        .price {
+            color: #00ff88;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .portfolio-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .portfolio-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: rgba(0,0,0,0.2);
+            padding: 15px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.3s;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .portfolio-item:hover {
+            background: rgba(0,136,204,0.2);
+            transform: translateX(5px);
+        }
+        .portfolio-icon {
+            font-size: 32px;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #0088cc, #6b4cff);
+            color: white;
+            padding: 15px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            box-shadow: 0 5px 20px rgba(0,136,204,0.3);
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,136,204,0.4);
+        }
+        .contact {
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="avatar">D</div>
+            <h1>Данил</h1>
+            <div class="subtitle">Разрабатываю Telegram-ботов с AI, сайты и настраиваю VPN</div>
+            <a href="https://t.me/@danilby4kov" class="btn">Написать в Telegram</a>
+        </div>
+
+        <div class="section">
+            <h2>📋 Мои услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>🤖 Telegram-боты с AI</h3>
+                    <p>Фитнес-тренер, спортивный аналитик, боты с оплатой через Telegram Stars. Интеграция с нейросетями (Groq).</p>
+                    <div class="price">от 1 500 ₽</div>
+                </div>
+                <div class="service-card">
+                    <h3>🌐 Сайты-визитки</h3>
+                    <p>Современные лендинги на чистом HTML/CSS. Бесплатный хостинг на GitHub Pages.</p>
+                    <div class="price">от 2 000 ₽</div>
+                </div>
+                <div class="service-card">
+                    <h3>🔒 VPN-серверы</h3>
+                    <p>Настройка персонального V2Ray/Xray сервера за рубежом. Маскировка трафика.</p>
+                    <div class="price">от 1 000 ₽</div>
+                </div>
+                <div class="service-card">
+                    <h3>🎬 AI-анимация</h3>
+                    <p>Оживление фото, синхронизация губ с голосом. Создание говорящих аватаров.</p>
+                    <div class="price">от 500 ₽</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💼 Портфолио</h2>
+            <div class="portfolio-links">
+                <a href="https://t.me/Fitness_Polina_bot" class="portfolio-item" target="_blank">
+                    <span class="portfolio-icon">🏋️</span>
+                    <div>
+                        <strong>AI-Фитнес тренер</strong><br>
+                        <span style="opacity: 0.8;">Подписки, AI-тренировки, трекинг веса, рефералы</span>
+                    </div>
+                </a>
+                <a href="https://t.me/SportExpert_Ai_bot" class="portfolio-item" target="_blank">
+                    <span class="portfolio-icon">⚽</span>
+                    <div>
+                        <strong>Спорт-аналитик</strong><br>
+                        <span style="opacity: 0.8;">Прогнозы на футбол, платные разборы, топ-матчи</span>
+                    </div>
+                </a>
+                <a href="https://github.com/Bychok774/portfolio" class="portfolio-item" target="_blank">
+                    <span class="portfolio-icon">📁</span>
+                    <div>
+                        <strong>Портфолио на GitHub</strong><br>
+                        <span style="opacity: 0.8;">Код проектов, скриншоты, описание</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="section contact">
+            <h2>📞 Свяжитесь со мной</h2>
+            <p style="margin-bottom: 20px; opacity: 0.9;">Готов обсудить ваш проект и ответить на вопросы</p>
+            <a href="https://t.me/danilby4kov" class="btn">@danilby4kov</a>
+            <p style="margin-top: 15px; opacity: 0.7;">Отвечаю в течение часа</p>
+        </div>
+
+        <div class="footer">
+            © 2026 Данил. Все права защищены.
+        </div>
+    </div>
+</body>
+</html>
