@@ -1,3 +1,13 @@
+# Портфолио Данила | Разработка Telegram-ботов и AI-решений
+
+## 👋 Обо мне
+
+Привет! Я Данил — разрабатываю Telegram-ботов с искусственным интеллектом, создаю сайты-визитки и настраиваю персональные VPN-серверы. В этом портфолио собраны мои реальные коммерческие проекты.
+
+🌐 **Сайт-визитка:** [bychok774.github.io/portfolio](https://bychok774.github.io/portfolio)
+
+---
+
 ## 🤖 Фитнес-бот с AI и подписками
 
 Полноценный коммерческий бот-тренер с искусственным интеллектом.
@@ -12,9 +22,10 @@
 - 🔔 Ежедневные уведомления
 
 **Скриншоты:**
-![Главное меню](fitness_menu.png)
-![Тренировка](fitness_workout.png)
-![Подписка](fitness_payment.png)
+
+![Главное меню фитнес-бота](fitness_menu.png)
+![Пример тренировки](fitness_workout.png)
+![Окно подписки](fitness_payment.png)
 
 🔗 **Попробовать бота:** [@Fitness_Polina_bot](https://t.me/Fitness_Polina_bot)
 
@@ -34,26 +45,47 @@
 - 📈 Статистика и профиль пользователя
 
 **Скриншоты:**
-![Главное меню](sport_menu.png)
-![Прогноз](sport_prediction.png)
+
+![Главное меню спорт-бота](sport_menu.png)
+![Краткий прогноз](sport_prediction.png)
 ![Детальный разбор](sport_payment.png)
 
 🔗 **Попробовать бота:** [@SportExpert_Ai_bot](https://t.me/SportExpert_Ai_bot)
 
 ---
 
-## 🛠 Технологии
+## 🛠 Технологии, с которыми я работаю
 
-- Python 3 (aiogram, sqlite3, requests)
-- AI: Groq API (Llama 3.3 70B)
-- Football-Data.org API
-- Telegram Stars (платежи)
-- PM2 (автозапуск 24/7)
-- VPS: Нидерланды
+| Категория | Инструменты |
+|-----------|-------------|
+| Язык | Python 3 |
+| Фреймворк | aiogram 3 |
+| База данных | SQLite |
+| AI | Groq API (Llama 3.3 70B), OpenAI API |
+| Платежи | Telegram Stars |
+| API | Football-Data.org |
+| Хостинг | VPS (Нидерланды), PM2 |
+| Деплой | GitHub Pages, Git |
 
 ---
 
 ## 📞 Контакты
 
-- Telegram: [@danilby4kov](https://t.me/@danilby4kov)
-- GitHub: [    Bychok774](https://github.com/Bychok774)
+- 💬 **Telegram:** [@danilby4kov](https://t.me/danilby4kov)
+- 🐙 **GitHub:** [Bychok774](https://github.com/Bychok774)
+- 🌐 **Сайт:** [bychok774.github.io/portfolio](https://bychok774.github.io/portfolio)
+
+---
+
+## 📋 Мои услуги и цены
+
+| Услуга | Цена | Срок |
+|--------|------|------|
+| Telegram-бот с AI | от 1 500 ₽ | 1-3 дня |
+| Сайт-визитка | от 2 000 ₽ | 1-2 дня |
+| Настройка VPN-сервера | от 1 000 ₽ | 1-2 часа |
+| AI-анимация губ | от 500 ₽ | 30 минут |
+
+---
+
+*Готов обсудить ваш проект — пишите в Telegram, отвечаю в течение часа!*
